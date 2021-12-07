@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Aleph-Client | Python](README.md)
+* [Aleph Python SDK](README.md)
 
 ## Quickstart
 
