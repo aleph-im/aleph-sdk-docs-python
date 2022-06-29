@@ -34,7 +34,7 @@ Here we are retrieving the 3 last Posts that were made with a post type of "chat
 ```python
 from aleph_client.synchronous import get_posts
 
-get_posts(post_types=['chat'], refs= ['hall'], pagination=3)
+get_posts(types=['chat'], refs= ['hall'], pagination=3)
 ```
 
 Aleph returns an object with a `posts` key containing an array of all the posts that were made with the query params we requested.
